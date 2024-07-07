@@ -8,7 +8,7 @@ def homeScreen():
 
 @app.route("/200")
 def code200():
-    filename="200statusCode.jpeg"
+    filename="images/200statusCode.jpeg"
     return send_file(filename, mimetype='image')
 
 if __name__=="__main__":
