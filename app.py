@@ -1,10 +1,10 @@
-from flask import Flask, send_file
+from flask import Flask, send_file, render_template
 
 app=Flask(__name__)
 
 @app.route("/")
 def homeScreen():
-    return "add /[status_code] to see what it does"
+    return render_template("index.html")
 
 @app.route("/200")
 def code200():
