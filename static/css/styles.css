@@ -1,10 +1,8 @@
 body {
-    background-color: rgb(40, 38, 38);opacity:0.2;
+    background-color: rgb(46, 44, 44);opacity:0.2;
     color: rgb(255, 255, 255); opacity:0.85;
 }
-h1{
-    text-align: center;  
-}
+
 h4{
     text-align: center;
 }
@@ -18,7 +16,16 @@ table{
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
+
 td{
     text-align: center;
 }
 
+img{
+    height: 200px;
+    width: auto;
+}
+
+.container{
+    text-align: center;
+}
